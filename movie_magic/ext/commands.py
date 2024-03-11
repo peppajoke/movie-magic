@@ -1,8 +1,8 @@
 import click
 
-from project_name.ext.auth import create_user
-from project_name.ext.database import db
-from project_name.models import Product
+from movie_magic.ext.auth import create_user
+from movie_magic.ext.database import db
+from movie_magic.models import Product
 
 
 def create_db():
